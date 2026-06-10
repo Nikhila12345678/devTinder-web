@@ -24,4 +24,5 @@ Add redux dev tools in chrome
 -should not be able access other routes without login
 -If token is not present, redirect user to login page
 -Logout feature
- 
+ - get feed and it in feed
+ -created user cards for feed
