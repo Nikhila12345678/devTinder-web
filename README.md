@@ -23,5 +23,5 @@ Add redux dev tools in chrome
 -Refactor our code to add constants file + create a components folder
 -should not be able access other routes without login
 -If token is not present, redirect user to login page
--
+-Logout feature
  
