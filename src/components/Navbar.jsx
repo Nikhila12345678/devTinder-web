@@ -36,8 +36,8 @@ const Navbar = () => {
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar mx-5">
         <div className="w-10 rounded-full">
           <img
-            alt={user.firstName.charAt(0)}
-            src= {user.photourl} />
+            src= {user.photourl}
+            alt="Profile Picture" />
         </div>
       </div>
       <ul

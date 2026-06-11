@@ -17,6 +17,7 @@ install daisy IU
 -install redux toolkit- https://redux-toolkit.js.org/tutorials/quickstart
 -install react-redux + @reduxjs/toolkit => configureStore => createslice => add reducer to store
 
+
 Add redux dev tools in chrome
 -Login and see if your data is coming properly int the store
 -Navbar should update as soon as user logs in 
@@ -26,3 +27,5 @@ Add redux dev tools in chrome
 -Logout feature
  - get feed and it in feed
  -created user cards for feed
+ -Edit profile feature
+ -show toast message on save profile
