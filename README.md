@@ -29,3 +29,4 @@ Add redux dev tools in chrome
  -created user cards for feed
  -Edit profile feature
  -show toast message on save profile
+ -connection page feature

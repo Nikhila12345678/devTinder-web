@@ -25,13 +25,13 @@ const Navbar = () => {
         }
     }
     return (
-        <div className="navbar bg-base-2 00 text-white shadow-sm">
+        <div className="navbar bg-base-2 00 text-white shadow-sm my-5">
   <div className="flex-1">
     <Link to="/" className="btn btn-ghost text-xl">Dev Tinder</Link>
   </div>
   <div className="flex gap-2">
     {user && (
-    <div className="dropdown dropdown-end mx-8 flex items-center">
+    <div className="dropdown dropdown-end mx-4 flex items-center">
         <p> Welcome, {user.firstName} </p>
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar mx-5">
         <div className="w-10 rounded-full">
@@ -49,7 +49,8 @@ const Navbar = () => {
             <span className="badge">New</span>
           </Link>
         </li>
-        <li><a>Settings</a></li>
+        <li><Link to="/connections">Connections</Link></li>
+        <li><Link to="/requests">Requests</Link></li>
         <li><a onClick={handleLogout}>Logout</a></li>
       </ul>
     </div>
