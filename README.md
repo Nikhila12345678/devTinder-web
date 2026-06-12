@@ -32,3 +32,4 @@ Add redux dev tools in chrome
  -connection page feature
  -New page to see all requests to the user
  -Accept or reject request
+ -Sendrequest/Ignore the user card from the feed
